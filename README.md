@@ -1,11 +1,11 @@
-# use-callback-ref
+# use-auto-callback-ref
 An custom `useCallback` hook which returns a continuously updating ref object.
 This means the callback ref will always be the latest function.
 This can be useful for things like event handlers so you don't need to unsubscribe/resubscribe each time the callback updates.
 
 ## Usage
 ```js
-import { useCallbackRef } from 'use-callback-ref';
+import { useCallbackRef } from 'use-auto-callback-ref';
 
 const ref = useCallbackRef(() => {
 }, []);

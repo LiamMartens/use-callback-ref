@@ -1,5 +1,5 @@
 {
-  "name": "use-callback-ref",
+  "name": "use-auto-callback-ref",
   "version": "1.0.0",
   "sideEffects": false,
   "main": "lib/cjs/index.js",
